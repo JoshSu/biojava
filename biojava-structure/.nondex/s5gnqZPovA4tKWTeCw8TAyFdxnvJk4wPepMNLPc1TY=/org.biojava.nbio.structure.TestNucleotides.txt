@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestNucleotides
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.983 s <<< FAILURE! - in org.biojava.nbio.structure.TestNucleotides
+org.biojava.nbio.structure.TestNucleotides.test1OFX  Time elapsed: 0.334 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A]> but was:<[B]>
+	at org.biojava.nbio.structure.TestNucleotides.test1OFX(TestNucleotides.java:122)
+

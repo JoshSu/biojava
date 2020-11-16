@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestStructureSerialization
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.021 s <<< FAILURE! - in org.biojava.nbio.structure.TestStructureSerialization
+org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure  Time elapsed: 1.016 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<structure  2GOX R[work: 1.0 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] NrBioAssemblies: 0 Resolution: 2.2 DepDate: Fri Apr 14 00:00:00 CDT 2006 Rfree: 0.231 ExperimentalTechniques: [X-RAY DIFFRACTION] Classification: CELL ADHESION/TOXIN Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX RelDate: Tue Mar 20 00:00:00 CDT 2007 BioAssemblies: {} ModDate: Tue Sep 18 00:00:00 CDT 2007 Authors: M.HAMMEL,B.V.GEISBRECHT IdCode: 2GOX JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,
+JRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.
+JRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 
+JRNL        REFN                   ISSN 1529-2908
+] 
+ chains:
+chain 0: ...> but was:<structure  2GOX R[esolution: 2.2 ExperimentalTechniques: [X-RAY DIFFRACTION] Rfree: 0.231 JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,
+JRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.
+JRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 
+JRNL        REFN                   ISSN 1529-2908
+ NrBioAssemblies: 0 Authors: M.HAMMEL,B.V.GEISBRECHT RelDate: Tue Mar 20 00:00:00 CDT 2007 DepDate: Fri Apr 14 00:00:00 CDT 2006 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX Rwork: 1.0 IdCode: 2GOX ModDate: Tue Sep 18 00:00:00 CDT 2007 Classification: CELL ADHESION/TOXIN BioAssemblies: {}] 
+ chains:
+chain 0: ...>
+	at org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure(TestStructureSerialization.java:68)
+

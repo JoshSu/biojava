@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.cluster.TestSubunitCluster
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.804 s <<< FAILURE! - in org.biojava.nbio.structure.cluster.TestSubunitCluster
+org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure  Time elapsed: 0.087 s  <<< FAILURE!
+java.lang.AssertionError: expected:<141> but was:<146>
+	at org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure(TestSubunitCluster.java:227)
+

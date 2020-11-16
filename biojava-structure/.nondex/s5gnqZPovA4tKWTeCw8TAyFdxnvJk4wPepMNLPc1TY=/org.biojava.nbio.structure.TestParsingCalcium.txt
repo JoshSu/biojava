@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestParsingCalcium
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.287 s <<< FAILURE! - in org.biojava.nbio.structure.TestParsingCalcium
+org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing  Time elapsed: 2.268 s  <<< ERROR!
+org.biojava.nbio.structure.StructureException: unknown PDB residue number 995 in chain A
+	at org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing(TestParsingCalcium.java:53)
+

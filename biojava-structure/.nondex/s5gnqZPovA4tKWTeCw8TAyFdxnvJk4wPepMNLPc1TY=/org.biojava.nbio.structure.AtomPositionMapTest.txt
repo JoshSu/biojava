@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.AtomPositionMapTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.995 s <<< FAILURE! - in org.biojava.nbio.structure.AtomPositionMapTest
+org.biojava.nbio.structure.AtomPositionMapTest.testLengths  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Bad length for (0,0) expected:<1> but was:<0>
+	at org.biojava.nbio.structure.AtomPositionMapTest.testLengths(AtomPositionMapTest.java:94)
+
+org.biojava.nbio.structure.AtomPositionMapTest.testChains  Time elapsed: 0.059 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<430>
+	at org.biojava.nbio.structure.AtomPositionMapTest.testChains(AtomPositionMapTest.java:284)
+

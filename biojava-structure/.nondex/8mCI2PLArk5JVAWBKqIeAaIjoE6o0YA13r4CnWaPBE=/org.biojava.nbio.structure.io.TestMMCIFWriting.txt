@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.io.TestMMCIFWriting
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 6.442 s <<< FAILURE! - in org.biojava.nbio.structure.io.TestMMCIFWriting
+org.biojava.nbio.structure.io.TestMMCIFWriting.test1A2C  Time elapsed: 1.693 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "?"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test1A2C(TestMMCIFWriting.java:77)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.test1SMT  Time elapsed: 0.359 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "N"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test1SMT(TestMMCIFWriting.java:60)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.test2N3J  Time elapsed: 4.381 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "ATOM"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test2N3J(TestMMCIFWriting.java:71)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.testBiounitWriting  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testBiounitWriting(TestMMCIFWriting.java:230)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<_demo.[default_field   ?
+_demo.custom_label    custom_field]
+#
+> but was:<_demo.[custom_label    custom_field
+_demo.default_field   ?]
+#
+>
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations(TestMMCIFWriting.java:117)
+

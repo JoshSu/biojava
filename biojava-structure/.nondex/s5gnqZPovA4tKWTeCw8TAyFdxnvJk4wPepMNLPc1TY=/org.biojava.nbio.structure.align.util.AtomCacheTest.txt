@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.align.util.AtomCacheTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.222 s <<< FAILURE! - in org.biojava.nbio.structure.align.util.AtomCacheTest
+org.biojava.nbio.structure.align.util.AtomCacheTest.testGetStructureForChainlessDomains  Time elapsed: 1.141 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.align.util.AtomCacheTest.testGetStructureForChainlessDomains(AtomCacheTest.java:178)
+

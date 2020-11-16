@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestNucleotides
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.78 s <<< FAILURE! - in org.biojava.nbio.structure.TestNucleotides
+org.biojava.nbio.structure.TestNucleotides.test1OFX  Time elapsed: 0.341 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A]> but was:<[B]>
+	at org.biojava.nbio.structure.TestNucleotides.test1OFX(TestNucleotides.java:122)
+
+org.biojava.nbio.structure.TestNucleotides.test3T5N  Time elapsed: 0.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[C]> but was:<[A]>
+	at org.biojava.nbio.structure.TestNucleotides.test3T5N(TestNucleotides.java:68)
+

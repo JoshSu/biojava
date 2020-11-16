@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.io.TestMMCIFWriting
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 6.359 s <<< FAILURE! - in org.biojava.nbio.structure.io.TestMMCIFWriting
+org.biojava.nbio.structure.io.TestMMCIFWriting.test1A2C  Time elapsed: 1.864 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "THR"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test1A2C(TestMMCIFWriting.java:77)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.test1SMT  Time elapsed: 0.31 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "1.00"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test1SMT(TestMMCIFWriting.java:60)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.test2N3J  Time elapsed: 4.176 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "ATOM"
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testRoundTrip(TestMMCIFWriting.java:153)
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.test2N3J(TestMMCIFWriting.java:71)
+
+org.biojava.nbio.structure.io.TestMMCIFWriting.testBiounitWriting  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at org.biojava.nbio.structure.io.TestMMCIFWriting.testBiounitWriting(TestMMCIFWriting.java:230)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.secstruc.TestSecStrucCalc
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.82 s <<< FAILURE! - in org.biojava.nbio.structure.secstruc.TestSecStrucCalc
+org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: SS assignment position 30 does not match expected:<BIOJAVA_ASSIGNMENT: S> but was:<DSSP_ASSIGNMENT:  >
+	at org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred(TestSecStrucCalc.java:77)
+

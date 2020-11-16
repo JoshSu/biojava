@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.secstruc.TestSecStrucCalc
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.822 s <<< FAILURE! - in org.biojava.nbio.structure.secstruc.TestSecStrucCalc
+org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred  Time elapsed: 0.781 s  <<< FAILURE!
+java.lang.AssertionError: SS assignment position 62 does not match expected:<BIOJAVA_ASSIGNMENT:  > but was:<DSSP_ASSIGNMENT: H>
+	at org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred(TestSecStrucCalc.java:117)
+
+org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: SS assignment position 30 does not match expected:<BIOJAVA_ASSIGNMENT: S> but was:<DSSP_ASSIGNMENT:  >
+	at org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred(TestSecStrucCalc.java:77)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.cluster.TestSubunitExtractor
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.955 s <<< FAILURE! - in org.biojava.nbio.structure.cluster.TestSubunitExtractor
+org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone  Time elapsed: 0.184 s  <<< FAILURE!
+java.lang.AssertionError: expected:<94> but was:<99>
+	at org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone(TestSubunitExtractor.java:77)
+

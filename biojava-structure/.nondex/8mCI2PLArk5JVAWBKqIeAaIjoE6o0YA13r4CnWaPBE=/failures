@@ -1,0 +1,15 @@
+org.biojava.nbio.structure.AtomPositionMapTest#testLengths
+org.biojava.nbio.structure.AtomPositionMapTest#testChains
+org.biojava.nbio.structure.io.TestMMCIFWriting#test1A2C
+org.biojava.nbio.structure.io.TestMMCIFWriting#test1SMT
+org.biojava.nbio.structure.io.TestMMCIFWriting#test2N3J
+org.biojava.nbio.structure.io.TestMMCIFWriting#testBiounitWriting
+org.biojava.nbio.structure.io.TestMMCIFWriting#testBeanAnnotations
+org.biojava.nbio.structure.cluster.TestSubunitCluster#testMergeStructure
+org.biojava.nbio.structure.secstruc.TestSecStrucCalc#testSecStrucPred
+org.biojava.nbio.structure.TestAtomCache#testAtomCacheNameParsing
+org.biojava.nbio.structure.cluster.TestSubunitExtractor#testHistone
+org.biojava.nbio.structure.TestStructureSerialization#testSerializeStructure
+org.biojava.nbio.structure.basepairs.TestBasePairParameters#testBasePair
+org.biojava.nbio.structure.TestParsingCalcium#testCalciumParsing
+org.biojava.nbio.structure.TestNucleotides#test3T5N

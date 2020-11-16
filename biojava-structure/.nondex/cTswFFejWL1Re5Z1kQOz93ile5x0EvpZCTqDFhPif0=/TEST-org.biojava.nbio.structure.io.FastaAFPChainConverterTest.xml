@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="2.683" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/test-classes:/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/classes:/Users/sujiaxu/.m2/repository/org/rcsb/ciftools-java-jdk8/2.0.2/ciftools-java-jdk8-2.0.2.jar:/Users/sujiaxu/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/sujiaxu/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-api/1.0.9/mmtf-api-1.0.9.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-serialization/1.0.9/mmtf-serialization-1.0.9.jar:/Users/sujiaxu/.m2/repository/org/msgpack/jackson-dataformat-msgpack/0.8.18/jackson-dataformat-msgpack-0.8.18.jar:/Users/sujiaxu/.m2/repository/org/msgpack/msgpack-core/0.8.18/msgpack-core-0.8.18.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-codec/1.0.9/mmtf-codec-1.0.9.jar:/Users/sujiaxu/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/sujiaxu/.m2/repository/org/biojava/biojava-alignment/6.0.0-SNAPSHOT/biojava-alignment-6.0.0-SNAPSHOT.jar:/Users/sujiaxu/.m2/repository/org/biojava/thirdparty/forester/1.038/forester-1.038.jar:/Users/sujiaxu/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.jar:/Users/sujiaxu/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/Users/sujiaxu/.m2/repository/org/jgrapht/jgrapht-core/1.1.0/jgrapht-core-1.1.0.jar:/Users/sujiaxu/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/sujiaxu/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/Users/sujiaxu/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/Users/sujiaxu/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/sujiaxu/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/sujiaxu/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/sujiaxu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sujiaxu/.m2/repository/xmlunit/xmlunit/1.6/xmlunit-1.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/surefire/surefirebooter1651461071452810756.jar /Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/surefire 2020-11-15T18-10-09_386-jvmRun1 surefire8477810260795012552tmp surefire_1273858108249397826700tmp"/>
+    <property name="biojava.cache.files" value="true"/>
+    <property name="surefire.test.class.path" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/test-classes:/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/classes:/Users/sujiaxu/.m2/repository/org/rcsb/ciftools-java-jdk8/2.0.2/ciftools-java-jdk8-2.0.2.jar:/Users/sujiaxu/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/sujiaxu/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-api/1.0.9/mmtf-api-1.0.9.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-serialization/1.0.9/mmtf-serialization-1.0.9.jar:/Users/sujiaxu/.m2/repository/org/msgpack/jackson-dataformat-msgpack/0.8.18/jackson-dataformat-msgpack-0.8.18.jar:/Users/sujiaxu/.m2/repository/org/msgpack/msgpack-core/0.8.18/msgpack-core-0.8.18.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/sujiaxu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/sujiaxu/.m2/repository/org/rcsb/mmtf-codec/1.0.9/mmtf-codec-1.0.9.jar:/Users/sujiaxu/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/sujiaxu/.m2/repository/org/biojava/biojava-alignment/6.0.0-SNAPSHOT/biojava-alignment-6.0.0-SNAPSHOT.jar:/Users/sujiaxu/.m2/repository/org/biojava/thirdparty/forester/1.038/forester-1.038.jar:/Users/sujiaxu/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.jar:/Users/sujiaxu/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/Users/sujiaxu/.m2/repository/org/jgrapht/jgrapht-core/1.1.0/jgrapht-core-1.1.0.jar:/Users/sujiaxu/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/sujiaxu/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/Users/sujiaxu/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/Users/sujiaxu/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/sujiaxu/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/sujiaxu/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/sujiaxu/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/sujiaxu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sujiaxu/.m2/repository/xmlunit/xmlunit/1.6/xmlunit-1.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="cTswFFejWL1Re5Z1kQOz93ile5x0EvpZCTqDFhPif0="/>
+    <property name="user.home" value="/Users/sujiaxu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="PDB_DIR" value="/var/folders/xy/jyfcpkdx1gv5pfsz5wld96qh0000gn/T/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/target/surefire/surefirebooter1651461071452810756.jar"/>
+    <property name="sun.boot.class.path" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/.nondex/nondex-instr.jar:/Users/sujiaxu/.m2/repository/edu/illinois/nondex-common/1.1.2/nondex-common-1.1.2.jar:/Users/sujiaxu/.m2/repository/edu/illinois/nondex-annotations/1.1.2/nondex-annotations-1.1.2.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="sujiaxu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="PDB_CACHE_DIR" value="/var/folders/xy/jyfcpkdx1gv5pfsz5wld96qh0000gn/T/"/>
+    <property name="localRepository" value="/Users/sujiaxu/.m2/repository"/>
+    <property name="nondexDir" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure/.nondex"/>
+    <property name="java.io.tmpdir" value="/var/folders/xy/jyfcpkdx1gv5pfsz5wld96qh0000gn/T/"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="/Users/sujiaxu/Desktop/flaky_tepo/biojava/biojava-structure"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sujiaxu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="/Users/sujiaxu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testBug1" classname="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="1.224">
+    <system-err><![CDATA[18:14:06 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /var/folders/xy/jyfcpkdx1gv5pfsz5wld96qh0000gn/T/
+]]></system-err>
+  </testcase>
+  <testcase name="testCpSymmetric1" classname="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="0.149"/>
+  <testcase name="testCpSymmetric2" classname="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="0.025"/>
+  <testcase name="testFromFasta" classname="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="0.265">
+    <failure message="AFPChain is wrong" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: AFPChain is wrong
+	at org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta(FastaAFPChainConverterTest.java:175)
+]]></failure>
+    <system-err><![CDATA[18:14:07 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain B residue 251 in the Structure 1QDM has no corresponding amino acid in the sequence.
+Expected attribute value '12.88' but was '12.60' - comparing <AFPChain totalRmsdOpt="12.88"...> at /AFPChain[1]/@totalRmsdOpt to <AFPChain totalRmsdOpt="12.60"...> at /AFPChain[1]/@totalRmsdOpt
+Expected attribute value '12.88' but was '12.60' - comparing <block blockRmsd="12.88"...> at /AFPChain[1]/block[1]/@blockRmsd to <block blockRmsd="12.60"...> at /AFPChain[1]/block[1]/@blockRmsd
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[1]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[1]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[2]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[2]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[3]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[3]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[4]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[4]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[5]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[5]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[6]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[6]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[7]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[7]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[8]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[8]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[9]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[9]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[10]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[10]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[11]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[11]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[12]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[12]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[13]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[13]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[14]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[14]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[15]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[15]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[16]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[16]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[17]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[17]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[18]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[18]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[19]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[19]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[20]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[20]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[21]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[21]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[22]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[22]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[23]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[23]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[24]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[24]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[25]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[25]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[26]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[26]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[27]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[27]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[28]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[28]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[29]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[29]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[30]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[30]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[31]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[31]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[32]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[32]/@chain2
+Expected attribute value 'C' but was 'B' - comparing <eqr chain2="C"...> at /AFPChain[1]/block[1]/eqr[33]/@chain2 to <eqr chain2="B"...> at /AFPChain[1]/block[1]/eqr[33]/@chain2
+Expected attribute value '-0.433626' but was '-0.213449' - comparing <matrix mat11="-0.433626"...> at /AFPChain[1]/block[1]/matrix[1]/@mat11 to <matrix mat11="-0.213449"...> at /AFPChain[1]/block[1]/matrix[1]/@mat11
+Expected attribute value '0.882212' but was '-0.392307' - comparing <matrix mat12="0.882212"...> at /AFPChain[1]/block[1]/matrix[1]/@mat12 to <matrix mat12="-0.392307"...> at /AFPChain[1]/block[1]/matrix[1]/@mat12
+Expected attribute value '0.183496' but was '0.894726' - comparing <matrix mat13="0.183496"...> at /AFPChain[1]/block[1]/matrix[1]/@mat13 to <matrix mat13="0.894726"...> at /AFPChain[1]/block[1]/matrix[1]/@mat13
+Expected attribute value '-0.805273' but was '0.457626' - comparing <matrix mat21="-0.805273"...> at /AFPChain[1]/block[1]/matrix[1]/@mat21 to <matrix mat21="0.457626"...> at /AFPChain[1]/block[1]/matrix[1]/@mat21
+Expected attribute value '-0.470775' but was '0.768993' - comparing <matrix mat22="-0.470775"...> at /AFPChain[1]/block[1]/matrix[1]/@mat22 to <matrix mat22="0.768993"...> at /AFPChain[1]/block[1]/matrix[1]/@mat22
+Expected attribute value '0.360425' but was '0.446351' - comparing <matrix mat23="0.360425"...> at /AFPChain[1]/block[1]/matrix[1]/@mat23 to <matrix mat23="0.446351"...> at /AFPChain[1]/block[1]/matrix[1]/@mat23
+Expected attribute value '0.404356' but was '-0.863144' - comparing <matrix mat31="0.404356"...> at /AFPChain[1]/block[1]/matrix[1]/@mat31 to <matrix mat31="-0.863144"...> at /AFPChain[1]/block[1]/matrix[1]/@mat31
+Expected attribute value '0.008525' but was '0.504723' - comparing <matrix mat32="0.008525"...> at /AFPChain[1]/block[1]/matrix[1]/@mat32 to <matrix mat32="0.504723"...> at /AFPChain[1]/block[1]/matrix[1]/@mat32
+Expected attribute value '0.914562' but was '0.015389' - comparing <matrix mat33="0.914562"...> at /AFPChain[1]/block[1]/matrix[1]/@mat33 to <matrix mat33="0.015389"...> at /AFPChain[1]/block[1]/matrix[1]/@mat33
+Expected attribute value '-14.232' but was '-74.756' - comparing <shift x="-14.232"...> at /AFPChain[1]/block[1]/shift[1]/@x to <shift x="-74.756"...> at /AFPChain[1]/block[1]/shift[1]/@x
+Expected attribute value '12.410' but was '46.959' - comparing <shift y="12.410"...> at /AFPChain[1]/block[1]/shift[1]/@y to <shift y="46.959"...> at /AFPChain[1]/block[1]/shift[1]/@y
+Expected attribute value '66.149' but was '105.685' - comparing <shift z="66.149"...> at /AFPChain[1]/block[1]/shift[1]/@z to <shift z="105.685"...> at /AFPChain[1]/block[1]/shift[1]/@z
+<AFPChain name1="1W0P" name2="1QDM" method="unknown" version="1.0" alnLength="53" blockNum="1" gapLen="20" optLength="33" totalLenIni="0" alignScore="0.00" chainRmsd="0.00" identity="0.0606" normAlignScore="0.00" probability="0.00e+00" similarity="0.2424" similarity1="4" similarity2="3" totalRmsdIni="0.00" totalRmsdOpt="12.60" ca1Length="753" ca2Length="1287" afpNum="0" alignScoreUpdate="0.00" time="0" tmScore="0.02">
+  <block blockNr="0" blockSize="33" blockScore="0.02" blockRmsd="12.60" blockGap="20">
+    <eqr eqrNr="0" pdbres1="361" chain1="A" pdbres2="78S" chain2="B" />
+    <eqr eqrNr="1" pdbres1="362" chain1="A" pdbres2="79S" chain2="B" />
+    <eqr eqrNr="2" pdbres1="363" chain1="A" pdbres2="80S" chain2="B" />
+    <eqr eqrNr="3" pdbres1="364" chain1="A" pdbres2="81S" chain2="B" />
+    <eqr eqrNr="4" pdbres1="365" chain1="A" pdbres2="86S" chain2="B" />
+    <eqr eqrNr="5" pdbres1="366" chain1="A" pdbres2="87S" chain2="B" />
+    <eqr eqrNr="6" pdbres1="367" chain1="A" pdbres2="88S" chain2="B" />
+    <eqr eqrNr="7" pdbres1="368" chain1="A" pdbres2="89S" chain2="B" />
+    <eqr eqrNr="8" pdbres1="369" chain1="A" pdbres2="90S" chain2="B" />
+    <eqr eqrNr="9" pdbres1="370" chain1="A" pdbres2="91S" chain2="B" />
+    <eqr eqrNr="10" pdbres1="371" chain1="A" pdbres2="92S" chain2="B" />
+    <eqr eqrNr="11" pdbres1="372" chain1="A" pdbres2="93S" chain2="B" />
+    <eqr eqrNr="12" pdbres1="373" chain1="A" pdbres2="94S" chain2="B" />
+    <eqr eqrNr="13" pdbres1="374" chain1="A" pdbres2="95S" chain2="B" />
+    <eqr eqrNr="14" pdbres1="375" chain1="A" pdbres2="96S" chain2="B" />
+    <eqr eqrNr="15" pdbres1="376" chain1="A" pdbres2="97S" chain2="B" />
+    <eqr eqrNr="16" pdbres1="377" chain1="A" pdbres2="100S" chain2="B" />
+    <eqr eqrNr="17" pdbres1="378" chain1="A" pdbres2="101S" chain2="B" />
+    <eqr eqrNr="18" pdbres1="379" chain1="A" pdbres2="102S" chain2="B" />
+    <eqr eqrNr="19" pdbres1="380" chain1="A" pdbres2="103S" chain2="B" />
+    <eqr eqrNr="20" pdbres1="381" chain1="A" pdbres2="252" chain2="B" />
+    <eqr eqrNr="21" pdbres1="382" chain1="A" pdbres2="253" chain2="B" />
+    <eqr eqrNr="22" pdbres1="383" chain1="A" pdbres2="254" chain2="B" />
+    <eqr eqrNr="23" pdbres1="384" chain1="A" pdbres2="255" chain2="B" />
+    <eqr eqrNr="24" pdbres1="389" chain1="A" pdbres2="256" chain2="B" />
+    <eqr eqrNr="25" pdbres1="390" chain1="A" pdbres2="257" chain2="B" />
+    <eqr eqrNr="26" pdbres1="391" chain1="A" pdbres2="258" chain2="B" />
+    <eqr eqrNr="27" pdbres1="392" chain1="A" pdbres2="259" chain2="B" />
+    <eqr eqrNr="28" pdbres1="393" chain1="A" pdbres2="260" chain2="B" />
+    <eqr eqrNr="29" pdbres1="394" chain1="A" pdbres2="266" chain2="B" />
+    <eqr eqrNr="30" pdbres1="395" chain1="A" pdbres2="267" chain2="B" />
+    <eqr eqrNr="31" pdbres1="396" chain1="A" pdbres2="268" chain2="B" />
+    <eqr eqrNr="32" pdbres1="397" chain1="A" pdbres2="269" chain2="B" />
+    <matrix mat11="-0.213449" mat12="-0.392307" mat13="0.894726" mat21="0.457626" mat22="0.768993" mat23="0.446351" mat31="-0.863144" mat32="0.504723" mat33="0.015389" />
+    <shift x="-74.756" y="46.959" z="105.685" />
+  </block>
+</AFPChain>
+
+]]></system-err>
+  </testcase>
+  <testcase name="testCpAsymmetric" classname="org.biojava.nbio.structure.io.FastaAFPChainConverterTest" time="1.016"/>
+</testsuite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestAtomCache
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.405 s <<< FAILURE! - in org.biojava.nbio.structure.TestAtomCache
+org.biojava.nbio.structure.TestAtomCache.testAtomCacheNameParsing  Time elapsed: 0.152 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.TestAtomCache.testAtomCacheNameParsing(TestAtomCache.java:113)
+

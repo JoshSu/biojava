@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestStructureSerialization
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.046 s <<< FAILURE! - in org.biojava.nbio.structure.TestStructureSerialization
+org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure  Time elapsed: 1.041 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<structure  2GOX [NrBioAssemblies: 0 Classification: CELL ADHESION/TOXIN Rfree: 0.231 JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,
+JRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.
+JRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 
+JRNL        REFN                   ISSN 1529-2908
+ Resolution: 2.2 ModDate: Tue Sep 18 00:00:00 CDT 2007 Rwork: 1.0 Authors: M.HAMMEL,B.V.GEISBRECHT BioAssemblies: {} DepDate: Fri Apr 14 00:00:00 CDT 2006 Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX ExperimentalTechniques: [X-RAY DIFFRACTION] IdCode: 2GOX RelDate: Tue Mar 20 00:00:00 CDT 2007 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00]] 
+ chains:
+chain 0:...> but was:<structure  2GOX [RelDate: Tue Mar 20 00:00:00 CDT 2007 Rfree: 0.231 Authors: M.HAMMEL,B.V.GEISBRECHT Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX IdCode: 2GOX ModDate: Tue Sep 18 00:00:00 CDT 2007 NrBioAssemblies: 0 Resolution: 2.2 BioAssemblies: {} Classification: CELL ADHESION/TOXIN Rwork: 1.0 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] DepDate: Fri Apr 14 00:00:00 CDT 2006 JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,
+JRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.
+JRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 
+JRNL        REFN                   ISSN 1529-2908
+ ExperimentalTechniques: [X-RAY DIFFRACTION]] 
+ chains:
+chain 0:...>
+	at org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure(TestStructureSerialization.java:68)
+

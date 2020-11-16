@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.biojava.nbio.structure.TestNucleotides
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.73 s <<< FAILURE! - in org.biojava.nbio.structure.TestNucleotides
+org.biojava.nbio.structure.TestNucleotides.test3T5N  Time elapsed: 0.012 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[C]> but was:<[A]>
+	at org.biojava.nbio.structure.TestNucleotides.test3T5N(TestNucleotides.java:68)
+
